@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #181719;
+    color: #fefefe;
+    padding-bottom: 100px;
+}
+
+.this-interior {
+    /* This Interior */
+    position: absolute;
+    padding: 8px;
+    background: none;
+    margin-left: 46px;
+    border: 1px solid #fefefe;
+    color: #fefefe;
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.nav-links ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 46px;
+    margin-right: 46px;
+}
+
+.nav-links ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px 40px;
+    color: #FFFFFF;
+    width: 600px;
+
+}
+
+.nav-links {
+    margin-top: 46px;
+}
+
+#hamburger {
+    color: #fefefe;
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+
+/*section*/
+
+section h3 {
+    /* Modern interior */
+    width: 365px;
+    height: 61px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+section p {
+    width: 410px;
+    height: 145px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+section h4 {
+    width: 103px;
+    height: 22px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.home {
+    width: 651.11px;
+    height: auto;
+    position: relative;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 153px;
+    padding: 46px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*card*/
+
+.card {
+    position: absolute;
+    width: 410px;
+    margin-top: -100px;
+    margin-left: 100px;
+    padding: 10px;
+
+    background: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+    border-radius: 100%;
+    width: 70px;
+    height: 72px;
+}
+
+.card h3 {
+    width: 95px;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.card p {
+    width: 102px;
+    height: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #828282;
+}
+
+.card h2 {
+    width: 287px;
+    height: 62px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 20px;
+}
+
+.card .id {
+    display: flex;
+    align-items: center;
+}
+
+.personal-info {
+    margin: 20px;
+}
+
+@media screen and (max-width: 1600px) {
+    section {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1198px) {
+    .home {
+        margin-top: 27px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .nav-links ul {
+        display: none;
+    }
+
+    #hamburger {
+        display: flex;
+        margin-right: 76px;
+    }
+
+    .nav-links ul.active {
+        display: block;
+        text-align: center;
+        height: 100vh;
+    }
+
+    .nav-links ul.active li {
+        padding: 32px;
+    }
+}
+
+@media screen and (max-width: 672px) {
+    .card {
+        width: 300px;
+        /* height: 170px; */
+    }
+
+    section{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 582px) {
+    .card {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 250px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+        line-height: 23px;
+        width: 210px;
+    }
+
+    .card img {
+        width: 52.2px;
+        height: 52.68px;
+    }
+
+    section {
+        padding: 12px;
+    }
+
+    .this-interior,
+    #hamburger {
+        margin: 12px;
+    }
+
+    .main p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        width: 330px;
+        line-height: 17px;
+    }
+
+}
+
+@media screen and (max-width: 349px) {
+    .card {
+        margin-left: 20px;
+    }
+}
