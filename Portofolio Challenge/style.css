@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+/*hero*/
+
+.hero {
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    padding: 22px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero img {
+    width: 271.86px;
+    height: 266.14px;
+    border-radius: 12px;
+}
+
+.header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4F4F4F;
+}
+
+.header-info {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    margin-top: 6px;
+}
+
+.header-p {
+    margin-top: 37px;
+    width: 658.86px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.hero .text {
+    margin-left: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*front end*/
+
+.front-end h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+
+.front-end .box {
+    width: 236.85px;
+    height: 9.6px;
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+
+.box .blue {
+    height: 9.6px;
+    background: #2F80ED;
+    border-radius: 12px;
+}
+
+.react {
+    width: 155.77px;
+}
+
+.js {
+    width: 198.44px;
+}
+
+.css {
+    width: 218.71px;
+}
+
+.vue {
+    width: 155.77px;
+}
+
+.redux {
+    width: 198.44px;
+}
+
+.native {
+    width: 218.71px;
+}
+
+.front-end .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.front-end {
+    padding: 23px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+.front-end h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #4F4F4F;
+}
+
+section {
+    margin-top: 48px;
+}
+
+/*hobbies*/
+.hobbies {
+    padding: 23px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+.hobbies h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    margin-top: 26px;
+}
+
+.hobbies p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.hobbies img {
+    margin-top: 36px;
+    width: 379.66px;
+    height: 139px;
+    border-radius: 12px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*blog*/
+.blog-container h4 {
+    width: 118px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.blog-container {
+    display: flex;
+    align-items: center;
+}
+
+.blog-container img {
+    border-radius: 12px;
+}
+
+.blog p {
+    width: 492px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    margin-top: 50px;
+}
+
+.blog {
+    margin: 43px;
+    padding: 23px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+/*experiences*/
+.experiences {
+    margin: 43px;
+    padding: 23px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+.developer h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.developer p {
+    width: 387.57px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    margin-top: 33px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.developer {
+    margin: 44px 22px;
+}
+
+/*projects*/
+
+
+/*project-cards*/
+.project-cards h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+    margin-top: 24px;
+}
+
+.project-cards h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-top: 24px;
+}
+
+.project-cards p {
+    width: 292px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    margin-top: 24px;
+}
+
+.project-cards img {
+    border-radius: 12px;
+}
+
+.project-cards .cards {
+    padding: 23px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    margin: 5px;
+}
+
+.project-cards{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    margin-top: 24px;
+}
+
+.card-button {
+    padding: 15px 25px;
+    border-radius: 12px;
+    background-color: transparent;
+    color: #2F80ED;
+    outline: none;
+    border: 1px solid #2F80ED;
+}
+
+.active {
+    padding: 15px 25px;
+    border-radius: 12px;
+    background-color: #2F80ED;
+    color: #fefefe;
+    outline: none;
+    border: 1px solid #2F80ED;
+}
+
+@media screen and (max-width: 998px) {
+    .header{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 709px) {
+    .header-p{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .header-p{
+        width: 350px;
+    }
+
+    .experiences p{
+        width: 300px;
+    }
+
+    
+}
